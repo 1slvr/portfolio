@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.white {
+    color: white;
+    margin: 5px;
+}
+
+.spacer {
+    width: 100%;
+    height: 60px;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: 800;
+    font-style: italic;
+    color:#190933;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    color:#190933;
+}
+
+h4 {
+    font-size: 26px;
+    font-weight: 800;
+    font-style: italic;
+    color:#ff0058;
+}
+
+h5 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: italic;
+    color:#ff0058;
+}
+
+p {
+    font-size: 12px;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #190933;
+    margin-top: 30px;
+    padding: 60px 0px;
+}
+
+
+/* RESPONSIVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEH */
+@media only screen and (min-width: 760px)
+{
+
+    .text-box {
+        width: 50%;    
+        text-align: right;
+    }
+
+    .carrousel {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .vignette {
+        width: 23%;
+        height: 230px;
+    }
+
+    .project-view-centered {
+        margin: 30px auto;
+        width: 60%;
+    }
+}
+
+
+@media all and (max-width: 1100px) 
+{ 
+
+    
+    p {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 46px;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+
+    nav {
+        position: fixed;
+    }
+    .right-box {
+        display: none;
+    }
+
+    .text-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .carrousel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vignette {
+        width: 90%;
+        height: 500px;
+        margin-bottom: 30px;
+    }
+
+    .project-view-centered {
+        margin: 30px auto;
+        width: 80%;
+    }
+
+    .spacer {
+        height: 150px;
+    }
+
+}
+
+
+
+
+
+
+/* RESPONSIVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEH */
+nav li {
+    display: inline;
+
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+nav a {
+    font-style: italic;
+    display: inline-block;
+    padding: 20px;
+    color: #333;
+    text-decoration: none;
+    background-image: linear-gradient(gray, gray);
+    background-repeat: no-repeat;
+    background-size: 0% 4px;
+    background-position: center 100%;
+    transition: background .2s ease-in;
+    font-weight: 800;
+}
+
+
+nav a:hover {
+    color: #ff0058;
+}
+
+.wrapper-center {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    background: #f2f2f2;
+}
+
+.second-row {
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    height: 100%;
+}
+
+.right-box {
+    height: 100%;
+    width: 50%;
+    background-image: url(../img/me.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+.carrousel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.vignette {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: white;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.vignette-img:hover {
+    background-position: center;
+    transition: 10s all;
+}
+
+.vignette-img {
+    border-radius: 8px 8px 1px 1px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: 8s all;
+    background-position: top;
+}
+
+.toolwrapper {
+    display: flex;
+}
+
+.tool {
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+/* LOGO IMG TOOL */
+.figma {
+    background-image: url(../img/figma-logo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.photoshop {
+    background-image: url(../img/PS-LOGO.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.illustrator {
+    background-image: url(../img/ai-logo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.shopify {
+    background-image: url(../img/shopify-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* LOGO IMG TOOL */
+
+
+/* IMG VIGNETTE CUSTOM */
+
+img {
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.wheelfinder {
+    background-image: url(../img/ZIPP-PRES.jpg); 
+}
+
+.blockpay {
+    background-image: url(../img/blockcard-pres.jpg); 
+}
+
+.neofrnd {
+    background-image: url(../img/neofrnd-log.jpg);
+    background-position: center;
+}
+
+.gallica {
+    background-image: url(../img/gallica-log.jpg);
+    background-position: center;
+}
+
+.ecar {
+    background-image: url(../img/electric-car.jpg);
+}
+
+.tdp {
+    background-image: url(../img/tdp.jpg);
+    background-position: center;
+}
+
+.isc {
+    background-image: url(../img/isc.jpg);
+    background-position: center;
+}
+
+.bellepiece {
+    background-image: url(../img/bellepiece.jpg);
+    background-position: center;
+}
+
+.iscps {
+    background-image: url(../img/isc-log.jpg);
+    background-position: center;
+}
+
+.reunionprint {
+    background-image: url(../img/reunionprint.jpg);
+    background-position: center;
+}
+
+.reunionweb {
+    background-image: url(../img/reunionweb.jpg);
+    background-position: center;
+}
+
+.motion {
+    background-image: url(../img/motion-log.jpg);
+    background-position: center;
+}
+
+/* END IMG VIGNETTE CUSTOM */
