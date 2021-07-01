@@ -70,9 +70,6 @@ p {
     }
 
     .carrousel {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
         flex-direction: row;
     }
@@ -126,9 +123,6 @@ p {
     }
 
     .carrousel {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -194,9 +188,6 @@ nav a:hover {
 }
 
 .first-row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -211,9 +202,6 @@ nav a:hover {
 }
 
 .text-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     align-items: right;
@@ -241,9 +229,6 @@ nav a:hover {
 
 .vignette {
     text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
@@ -268,9 +253,6 @@ nav a:hover {
 }
 
 .toolwrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
 }
 
