@@ -61,7 +61,9 @@ p {
 
 
 /* RESPONSIVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEH */
-@media only screen and (min-width: 760px)
+@media only screen 
+    and (min-width: 375px)
+    and (-webkit-device-pixel-ratio : 3)
 {
 
     .text-box {
