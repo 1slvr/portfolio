@@ -82,6 +82,10 @@ p {
     .vignette {
         width: 23%;
         height: 230px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
     }
 
     .project-view-centered {
