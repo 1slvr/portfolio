@@ -61,9 +61,7 @@ p {
 
 
 /* RESPONSIVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEH */
-@media only screen 
-    and (min-width: 375px)
-    and (-webkit-device-pixel-ratio : 3)
+@media only screen and (min-width: 760px)
 {
 
     .text-box {
@@ -141,10 +139,6 @@ p {
         width: 90%;
         height: 500px;
         margin-bottom: 30px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        flex: 1;
     }
 
     .project-view-centered {
@@ -250,7 +244,7 @@ nav a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    flex: 1;
+    display: flex;
     flex-direction: column;
     border-radius: 8px;
     background-color: white;
